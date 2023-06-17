@@ -1941,6 +1941,11 @@ impl HasContext for Context {
         gl.BlendColor(red, green, blue, alpha);
     }
 
+    unsafe fn point_size(&self, size: f32) {
+        let gl = &self.raw;
+        gl.PointSize(size);
+    }
+
     unsafe fn line_width(&self, width: f32) {
         let gl = &self.raw;
         gl.LineWidth(width);

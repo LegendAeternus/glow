@@ -848,6 +848,8 @@ pub trait HasContext {
 
     unsafe fn blend_color(&self, red: f32, green: f32, blue: f32, alpha: f32);
 
+    unsafe fn point_size(&self, size: f32);
+
     unsafe fn line_width(&self, width: f32);
 
     unsafe fn map_buffer_range(
