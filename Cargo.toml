@@ -1,6 +1,6 @@
 [package]
 name = "glow"
-version = "0.12.2"
+version = "0.16.0"
 description = "GL on Whatever: a set of bindings to run GL (Open GL, OpenGL ES, and WebGL) anywhere, and avoid target-specific code."
 authors = [
   "Joshua Groves <josh@joshgroves.com>",
@@ -48,6 +48,7 @@ features = [
   "HtmlImageElement",
   "HtmlVideoElement",
   "ImageBitmap",
+  "ImageData",
   "VideoFrame",
   "WebGlActiveInfo",
   "WebGlBuffer",
@@ -59,6 +60,7 @@ features = [
   "WebGl2RenderingContext",
   "WebGlSampler",
   "WebGlShader",
+  "WebGlShaderPrecisionFormat",
   "WebGlSync",
   "WebGlTexture",
   "WebGlTransformFeedback",
